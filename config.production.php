@@ -1,6 +1,6 @@
 <?php
 
 return [
-    'baseUrl' => getenv('BASE_URL_PRODUCTION') ?? 'https://jigsaw-netlifycms.netlify.com',
+    'baseUrl' => getenv('BASE_URL_PRODUCTION'),
     'production' => true,
 ];

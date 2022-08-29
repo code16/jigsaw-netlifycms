@@ -1,5 +1,9 @@
 module.exports = {
-  purge: false,
+  purge: [
+    'source/**/*.blade.php',
+    'source/**/*.md',
+    'source/**/*.html',
+  ],
   theme: {
     extend: {
       fontFamily: {
