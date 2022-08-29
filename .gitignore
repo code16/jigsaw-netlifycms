@@ -5,6 +5,7 @@
 /.idea/
 /.vscode/
 npm-debug.log
+composer.lock
 
 /build_staging/
 /build_production/
